@@ -5,11 +5,11 @@ require 'minute-franck/version'
 
 Gem::Specification.new do |gem|
   gem.name          = "minute-franck"
-  gem.version       = Minute::Franck::VERSION
+  gem.version       = MinuteFranck::VERSION
   gem.authors       = ["Thomas Riboulet"]
   gem.email         = ["riboulet@gmail.com"]
-  gem.description   = %q{TODO: Write a gem description}
-  gem.summary       = %q{TODO: Write a gem summary}
+  gem.description   = "simple gem to create Freckle entries"
+  gem.summary       = "simple gem to create Freckle entries"
   gem.homepage      = ""
 
   gem.files         = `git ls-files`.split($/)
