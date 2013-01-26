@@ -1,4 +1,4 @@
 #!/usr/bin/env ruby
 
-require 'minute-franck'
+require File.expand_path('../../lib/minute-franck/minute_franck', __FILE__)
 
