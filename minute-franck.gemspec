@@ -23,4 +23,6 @@ Gem::Specification.new do |gem|
   gem.add_runtime_dependency "rack", "~> 1.5"
   gem.add_runtime_dependency "thor", "~> 0.17"
   gem.add_runtime_dependency "builder", "~> 3.1"
+  gem.add_runtime_dependency "multi_xml", "~> 0.2"
+  gem.add_runtime_dependency "activesupport", "3.2"
 end

@@ -2,6 +2,12 @@
 
 A simple app to add entries to your freckle account.
 
+It's a thor based app so to get usage you can do :
+
+```shell
+minute_franck help
+```
+
 ## Install
 
 ```shell

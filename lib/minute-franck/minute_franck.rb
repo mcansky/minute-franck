@@ -10,7 +10,7 @@ class MinuteFranck < Thor
     def config
       config_path = "#{ENV['HOME']}/.franck_config.yml"
       unless File.exist?(config_path)
-        raise SystemError, "config file missing"
+        raise StandardError, "config file missing"
       end
       YAML.load_file(config_path)
     end
